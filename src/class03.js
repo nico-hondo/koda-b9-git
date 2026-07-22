@@ -3,3 +3,7 @@ function callName(){
 
     return output;
 }
+
+const siapaYu = callName()
+
+console.log(siapaYu);

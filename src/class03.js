@@ -1,1 +1,3 @@
-console.log("My Name Is Nico");
+function callName(){
+    console.log("My Name Is Nico");
+}

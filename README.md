@@ -59,3 +59,19 @@ $ git rm --cached <file/folder>...
 ```bash
     $ git clone <link-remote(.git)> <nama-folder-baru>(opsi)
 ```
+10. **reset** - Mundur ke commit tertentu
+```bash
+<!-- cari tau commit-id melalui log/reflog -->
+$ git log
+$ git reflog
+<!-- lakukan reset -->
+$ git reset <commit-id>
+```
+11. **revert** - "menghilangkan" commit
+```bash
+    <!-- cari tau commit-id melalui log/reflog -->
+    $ git log
+    $ git reflog
+    <!-- lakukan revert -->
+    $ git revert <commit-id>
+```
